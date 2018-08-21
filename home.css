@@ -1,0 +1,46 @@
+*{
+	box-sizing:border-box;
+}
+
+ul{
+	list-style-type:none;
+	overflow:hidden;
+	
+
+}
+li{
+	float:left;
+	display:block;
+}
+.container{
+	padding:10px 10px;
+	margin:0;	
+	background-color:#c9d8ef;
+}
+.menu{
+	width:100%;
+	margin-left:20px;
+}
+.menu::after{
+	content:'           ';
+	clear:both;
+	display:table;
+	
+}
+.menu-item{
+	
+	display:inline-block;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+	padding-top:3px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+ img{
+	height:2em;
+	width:5em;
+	float:left;
+}
